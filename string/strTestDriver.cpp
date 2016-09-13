@@ -62,7 +62,7 @@ int main()
       inputString.PrintToFile(true, outFile);
     else if (command == "PrintToScreen")
       inputString.PrintToScreen(true);
-    else if (command == "CopyString) {
+    else if (command == "CopyString") {
       StrType secondString;
       inputString.CopyString(secondString);
       outFile << "String to copy: ";
