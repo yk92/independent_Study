@@ -1,0 +1,18 @@
+MakeEmpty
+PrintToFile
+GetString true ALPHA_NUM
+PrintToFile
+GetString true ALPHA_NUM
+PrintToFile
+GetString true ALPHA_NUM
+PrintToFile
+GetString true ALPHA_NUM
+PrintToFile
+GetString true NOT_NEW
+PrintToFile
+GetString true NOT_NEW
+PrintToFile
+LengthIs
+CopyString
+PrintToScreen
+Quit
