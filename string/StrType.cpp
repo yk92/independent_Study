@@ -153,4 +153,22 @@ int StrType::LengthIs()
   return std::strlen(letters);
 }
 
-    
+bool StrType::operator<(StrType otherString) const
+{
+  int result;
+  
+  result = std::strcmp(letters, otherString.letters);
+  if (result < 0)
+    return true;
+  else return false;
+}    
+
+bool StrType::operator==(StrType otherString) const
+{
+  int result;
+  
+  result = std::strcmp(letters, otherString.letters);
+  if (result == 0)
+    return true;
+  else return false;
+}

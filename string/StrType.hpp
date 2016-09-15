@@ -38,6 +38,8 @@ If skip is false, reading and storing begins with the current char in the stream
   void PrintToFile(bool newLine, std::ofstream& outFile);
   int LengthIs();
   void CopyString(StrType& newString);
+  bool operator<(StrType otherString) const;
+  bool operator==(StrType otherString) const;
 
 private:
   char letters[kMax_Chars + 1];
