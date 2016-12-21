@@ -1,3 +1,7 @@
+/* AVL Tree - Used various sources from around the web to put together this Class def and functions 
+ *
+ */
+
 #include <iostream>
 #include <cstdio>
 #include <sstream>

@@ -1,4 +1,8 @@
-//C++ Program to implement Red Black Tree
+/* C++ Program to implement Red Black Tree
+ *
+ * Credit goes to various online data structure & alg resources for help
+ * with the code
+ */
 
 #include <iostream>
 #include <cstdio>
